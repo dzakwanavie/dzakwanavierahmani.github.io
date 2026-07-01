@@ -1,0 +1,17 @@
+Example Database
+ [x] Model find all
+ [x] Soft delete leaves row
+
+Example Session
+ [x] Session simple
+
+Forum Controller (Tests\Database\ForumController)
+ [x] Store post controller
+
+Health
+ [x] Is defined app path
+ [x] Base url has been set
+
+Post Model (Tests\Database\PostModel)
+ [x] Insert post success
+

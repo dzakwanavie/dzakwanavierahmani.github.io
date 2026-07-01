@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="C:\xamppp\htdocs\tourn\phpunit.dist.xml" tests="7" assertions="15" errors="0" failures="0" skipped="0" time="1.220096">
+    <testsuite name="App" tests="7" assertions="15" errors="0" failures="0" skipped="0" time="1.220096">
+      <testsuite name="ExampleDatabaseTest" file="C:\xamppp\htdocs\tourn\tests\database\ExampleDatabaseTest.php" tests="2" assertions="3" errors="0" failures="0" skipped="0" time="0.200759">
+        <testcase name="testModelFindAll" file="C:\xamppp\htdocs\tourn\tests\database\ExampleDatabaseTest.php" line="17" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" assertions="1" time="0.167835"/>
+        <testcase name="testSoftDeleteLeavesRow" file="C:\xamppp\htdocs\tourn\tests\database\ExampleDatabaseTest.php" line="28" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" assertions="2" time="0.032924"/>
+      </testsuite>
+      <testsuite name="Tests\Database\ForumControllerTest" file="C:\xamppp\htdocs\tourn\tests\database\ForumControllerTest.php" tests="1" assertions="4" errors="0" failures="0" skipped="0" time="0.336636">
+        <testcase name="testStorePostController" file="C:\xamppp\htdocs\tourn\tests\database\ForumControllerTest.php" line="22" class="Tests\Database\ForumControllerTest" classname="Tests.Database.ForumControllerTest" assertions="4" time="0.336636"/>
+      </testsuite>
+      <testsuite name="Tests\Database\PostModelTest" file="C:\xamppp\htdocs\tourn\tests\database\PostModelTest.php" tests="1" assertions="4" errors="0" failures="0" skipped="0" time="0.667094">
+        <testcase name="testInsertPostSuccess" file="C:\xamppp\htdocs\tourn\tests\database\PostModelTest.php" line="20" class="Tests\Database\PostModelTest" classname="Tests.Database.PostModelTest" assertions="4" time="0.667094"/>
+      </testsuite>
+      <testsuite name="ExampleSessionTest" file="C:\xamppp\htdocs\tourn\tests\session\ExampleSessionTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.004972">
+        <testcase name="testSessionSimple" file="C:\xamppp\htdocs\tourn\tests\session\ExampleSessionTest.php" line="10" class="ExampleSessionTest" classname="ExampleSessionTest" assertions="1" time="0.004972"/>
+      </testsuite>
+      <testsuite name="HealthTest" file="C:\xamppp\htdocs\tourn\tests\unit\HealthTest.php" tests="2" assertions="3" errors="0" failures="0" skipped="0" time="0.010635">
+        <testcase name="testIsDefinedAppPath" file="C:\xamppp\htdocs\tourn\tests\unit\HealthTest.php" line="12" class="HealthTest" classname="HealthTest" assertions="1" time="0.006306"/>
+        <testcase name="testBaseUrlHasBeenSet" file="C:\xamppp\htdocs\tourn\tests\unit\HealthTest.php" line="17" class="HealthTest" classname="HealthTest" assertions="2" time="0.004329"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
